@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.EndPoints", "04.EndPoints", "{6BEBECD9-BF97-40CE-9F34-6AB8C3B62F6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myPhoneBook.EndPoints.MVC", "myPhoneBook.EndPoints.MVC\myPhoneBook.EndPoints.MVC.csproj", "{FF653626-8AE0-4BE3-9A0B-FD6B020CF772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Domain", "01.Domain", "{618BFFAF-15D7-4F17-B63F-A10A43EE1E6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPhoneBook.Domain.Core", "MyPhoneBook.Domain.Core\MyPhoneBook.Domain.Core.csproj", "{E5B8D977-1E57-40F4-B894-5879ECA4BB69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myPhoneBook.Core.Contract", "myPhoneBook.Core.Contract\myPhoneBook.Core.Contract.csproj", "{7D68C622-B236-4CFF-BF13-854892AE3C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{21CBD634-784E-4A16-8B3B-A40BC0419710}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myPhoneBook.Services.Application", "myPhoneBook.Services.Application\myPhoneBook.Services.Application.csproj", "{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.InfraStractures", "03.InfraStractures", "{9686EA76-0451-4BAC-8D58-651B84738DFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myPhoneBook.Infrastrauctures.DataAccess", "myPhoneBook.Infrastrauctures.DataAccess\myPhoneBook.Infrastrauctures.DataAccess.csproj", "{B23B6E72-F89C-495C-9E68-4D766A43C111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5A3DFF0D-D783-4E80-992F-A4CD85DA61F2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\BaseRepository.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\BaseRepository.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\PhoneBookContext.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\PhoneBookContext.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\PhoneBookContextFactory.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Common\PhoneBookContextFactory.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "People", "People", "{970B0D02-3DFB-4C61-821C-AF5972E01899}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonConfig.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonConfig.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonRepository.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonRepository.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonTagConfig.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\People\PersonTagConfig.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phones", "Phones", "{8252F2A3-470D-471A-BBF4-6ED41327942F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Phones\PhoneConfig.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Phones\PhoneConfig.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Phones\PhoneRepository.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Phones\PhoneRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tags", "Tags", "{9DD79F3B-94DA-4C16-9840-62ED82AB86B6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Tags\TagConfig.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Tags\TagConfig.cs
+		..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Tags\TagRepository.cs = ..\..\..\PhoneBook-master\PhoneBook.Infrastructures.DataLayer\Tags\TagRepository.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF653626-8AE0-4BE3-9A0B-FD6B020CF772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF653626-8AE0-4BE3-9A0B-FD6B020CF772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF653626-8AE0-4BE3-9A0B-FD6B020CF772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF653626-8AE0-4BE3-9A0B-FD6B020CF772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B8D977-1E57-40F4-B894-5879ECA4BB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B8D977-1E57-40F4-B894-5879ECA4BB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B8D977-1E57-40F4-B894-5879ECA4BB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B8D977-1E57-40F4-B894-5879ECA4BB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D68C622-B236-4CFF-BF13-854892AE3C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D68C622-B236-4CFF-BF13-854892AE3C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D68C622-B236-4CFF-BF13-854892AE3C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D68C622-B236-4CFF-BF13-854892AE3C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23B6E72-F89C-495C-9E68-4D766A43C111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23B6E72-F89C-495C-9E68-4D766A43C111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23B6E72-F89C-495C-9E68-4D766A43C111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23B6E72-F89C-495C-9E68-4D766A43C111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF653626-8AE0-4BE3-9A0B-FD6B020CF772} = {6BEBECD9-BF97-40CE-9F34-6AB8C3B62F6B}
+		{E5B8D977-1E57-40F4-B894-5879ECA4BB69} = {618BFFAF-15D7-4F17-B63F-A10A43EE1E6B}
+		{7D68C622-B236-4CFF-BF13-854892AE3C95} = {618BFFAF-15D7-4F17-B63F-A10A43EE1E6B}
+		{A361DB67-15DE-4EB5-B3C3-0D4DB9A56714} = {21CBD634-784E-4A16-8B3B-A40BC0419710}
+		{B23B6E72-F89C-495C-9E68-4D766A43C111} = {9686EA76-0451-4BAC-8D58-651B84738DFE}
+		{5A3DFF0D-D783-4E80-992F-A4CD85DA61F2} = {9686EA76-0451-4BAC-8D58-651B84738DFE}
+		{970B0D02-3DFB-4C61-821C-AF5972E01899} = {9686EA76-0451-4BAC-8D58-651B84738DFE}
+		{8252F2A3-470D-471A-BBF4-6ED41327942F} = {9686EA76-0451-4BAC-8D58-651B84738DFE}
+		{9DD79F3B-94DA-4C16-9840-62ED82AB86B6} = {9686EA76-0451-4BAC-8D58-651B84738DFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4D2C007-D714-4935-9346-EA69365DE4D2}
+	EndGlobalSection
+EndGlobal
